@@ -7,7 +7,6 @@ import org.slf4j.LoggerFactory
 import scala.concurrent.duration.DurationInt
 
 trait CircuitBreakerDecorator extends ServiceGateway {
-  val logger = LoggerFactory.getLogger(this.getClass)
 
   override def getData(address: Address) = {
     CustomCircuitBreaker.getCircuitBreaker(

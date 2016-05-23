@@ -6,6 +6,6 @@ import demo.gateways.ServiceGateway
 import demo.utils.Address
 
 @Singleton
-class ApplicationService @Inject()(@Named("with_circuit_breaker") gateway: ServiceGateway) {
+class ApplicationService @Inject()(@Named("with_fallback_and_circuit_breaker") gateway: ServiceGateway) {
   def getData(address: Address) = gateway.getData(address)
 }
