@@ -24,7 +24,7 @@ javaOptions ++= Seq(
   "-Duser.language=en-US"
 )
 
-lazy val libraries = Seq(ws, "org.scala-lang.modules" %% "scala-async" % "0.9.3")
+lazy val libraries = Seq(ws, cache, "org.scala-lang.modules" %% "scala-async" % "0.9.3")
 
 val decorator_pattern = project.in(file("."))
             .enablePlugins(PlayScala)
