@@ -1,4 +1,4 @@
-package decorator
+package demo
 
 import play.api.{Application, GlobalSettings}
 

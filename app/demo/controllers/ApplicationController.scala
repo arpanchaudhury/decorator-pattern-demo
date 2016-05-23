@@ -1,8 +1,8 @@
-package decorator.controllers
+package demo.controllers
 
 import com.google.inject.{Inject, Singleton}
-import decorator.services.ApplicationService
-import decorator.utils.Address
+import demo.services.ApplicationService
+import demo.utils.Address
 import play.api.mvc.{Action, Controller}
 
 import scala.concurrent.ExecutionContext.Implicits.global

@@ -1,1 +1,1 @@
-GET         /         @decorator.controllers.ApplicationController.test(address: decorator.utils.Address)
+GET         /         @demo.controllers.ApplicationController.test(address: demo.utils.Address)

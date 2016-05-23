@@ -1,4 +1,4 @@
-package decorator.utils
+package demo.utils
 
 import play.api.mvc.QueryStringBindable
 
